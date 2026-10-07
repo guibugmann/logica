@@ -1,0 +1,77 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'media Pika'
+  ClientHeight = 441
+  ClientWidth = 624
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object Label1: TLabel
+    Left = 64
+    Top = 104
+    Width = 53
+    Height = 15
+    Caption = 'Numero 1'
+  end
+  object Label2: TLabel
+    Left = 232
+    Top = 104
+    Width = 51
+    Height = 15
+    Caption = 'numero 2'
+  end
+  object Label3: TLabel
+    Left = 408
+    Top = 104
+    Width = 51
+    Height = 15
+    Caption = 'numero 3'
+  end
+  object edMedia: TLabel
+    Left = 112
+    Top = 288
+    Width = 347
+    Height = 45
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -32
+    Font.Name = 'Segoe UI'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object edN1: TEdit
+    Left = 64
+    Top = 160
+    Width = 121
+    Height = 23
+    TabOrder = 0
+  end
+  object edN2: TEdit
+    Left = 232
+    Top = 160
+    Width = 121
+    Height = 23
+    TabOrder = 1
+  end
+  object edN3: TEdit
+    Left = 408
+    Top = 160
+    Width = 121
+    Height = 23
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 256
+    Top = 232
+    Width = 75
+    Height = 25
+    Caption = 'Calcular'
+    TabOrder = 3
+    OnClick = Button1Click
+  end
+end
